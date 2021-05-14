@@ -5,9 +5,9 @@ using UnityEngine;
 public class Spawner : MonoBehaviour {
 
     private float timeBtwSpawns;
-    public float startTimeBtwSpawns;
-    public float timeDecrease;
-    public float minTime;
+    public float startTimeBtwSpawns =1f;
+    public float timeDecrease = 0.05f;
+    public float minTime = 0.5f;
 
     public GameObject[] obstacleTemplate;
 
